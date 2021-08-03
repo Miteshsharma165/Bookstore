@@ -1,0 +1,62 @@
+@charset "ISO-8859-1";
+
+#headermenu{
+	display:table;
+}
+#headermenu div{
+	display:table-cell;
+	padding-right:20px;
+}
+a:link{
+	color:cornflowerblue;
+	text-decoration:none;
+}
+a:visited{
+	color:indigo;
+}
+a:hover{
+	color:blue;
+	text-decoration: underline;
+}
+
+#headermenu a:link{
+	font-size:larger;
+}
+.pageheading {
+color:darkblue	;	
+}
+table{
+	border: 2px solid black;
+	border-collapse:collapse;
+}
+
+th,td{
+	padding:10px;
+}
+th{
+	background:darkblue;
+	color:white;
+	font-size:20px;
+}
+.form table{
+	border: 0;
+ }
+   
+ button{
+  background-color:#555555;
+  color: white;
+  font-size:18px;  
+  border-radius:5px;
+ }   
+ button:hover{
+ background-color:white;
+ color:black;
+ }
+ input{
+ border:1px solid black;
+ border-color:green;
+ }
+ .message{
+ font-style:italic;
+ color:blue;
+ }
